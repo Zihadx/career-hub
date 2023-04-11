@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Account & Finance",
+    "image": "https://www.flaticon.com/free-icon/free-delivery_411776?term=free&page=1&position=1&origin=tag&related_id=411776",
+    "description": "300 Jobs Available."
+  },
+  {
+    "id": 2,
+    "title": "Creative Design",
+    "image": "https://www.flaticon.com/free-icon/arcade-machine_2699674?term=free&page=1&position=9&origin=tag&related_id=2699674",
+    "description": "300 Jobs Available."
+  },
+  {
+    "id": 3,
+    "title": "Marketing & Sales",
+    "image": "https://www.flaticon.com/free-icon/videogame_3824492?related_id=3824492&origin=tag",
+    "description": "300 Jobs Available."
+  },
+  {
+    "id": 4,
+    "title": "Engineering Job",
+    "image": "https://www.flaticon.com/free-icon/arcade-machine_4615195?related_id=4615195",
+    "description": "300 Jobs Available."
+  }
+]

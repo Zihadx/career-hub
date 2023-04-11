@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import SingleSection from "./SingleSection";
 const Section = () => {
-//   const [sections, setSections ]= useState([]);
-//   useEffect(() => {
-//     fetch('sectionData.json')
-//         .then(res => res.json())
-//         .then(data => setSections(data))
-// }, []);
+  const [sections, setSections ]= useState([]);
+  console.log(sections)
+  useEffect(() => {
+    fetch('sectionData.json')
+        .then(res => res.json())
+        .then(data => setSections(data))
+}, []);
 
   return (
     <div className="px-24">
@@ -18,9 +20,11 @@ const Section = () => {
           </small>
         </p>
       </div>
-      {/* {
-        sections.map(section => <SectionData section = {section}></SectionData>)
-      } */}
+      <div>
+      {
+        sections.map(section => <SingleSection key={section.id} section={section}></SingleSection>)
+      }
+      </div>
     </div>
   );
 };

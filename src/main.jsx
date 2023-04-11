@@ -5,21 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Componets/Home";
 import ErrorPage from "./Componets/ErrorPage";
-
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <App></App>
-//   },
-//   {
-//     path: '/about',
-//     element: <div>this is about</div>
-//   },
-//   {
-//     path: '/contact',
-//     element: <div>this is contact</div>
-//   }
-// ])
+import Blog from "./Componets/Blog";
 
 const router = createBrowserRouter([
   {
@@ -37,10 +23,16 @@ const router = createBrowserRouter([
       },
       { 
         path: "/blog",
-        element: <div>this is blog</div>
+        element: <Blog></Blog>
       },
+      {
+        path:"/",
+        element:<Home></Home>
+      }
+     
     ],
   },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
