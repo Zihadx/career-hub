@@ -28,7 +28,18 @@ const Jobs = () => {
         ))}
       </div>
 
-     
+      <div className="text-center mb-8">
+        <Link to="/">
+          {data.length < jobs.length && (
+            <button
+              onClick={jobData}
+              className="bg-indigo-500 p-2 rounded-md text-white font-semibold mt-8"
+            >
+              See more job
+            </button>
+          )}
+        </Link>
+      </div>
     </>
   );
 };
