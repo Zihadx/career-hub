@@ -4,7 +4,7 @@ import img from "../image/img.png";
 
 const Header = () => {
   return (
-    <div className="bg-indigo-50 px-24 py-8">
+    <div className="bg-indigo-50 md:px-24 py-8">
       
       <div className="md:flex md:justify-between items-center py-6">
         <div className="">

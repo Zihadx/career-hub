@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SingleSection from "./SingleSection";
 const Section = () => {
   const [sections, setSections ]= useState([]);
-  console.log(sections)
+  // console.log(sections)
   useEffect(() => {
     fetch('sectionData.json')
         .then(res => res.json())
@@ -10,7 +10,7 @@ const Section = () => {
 }, []);
 
   return (
-    <div className="px-24">
+    <div className="md:px-24">
       <div className="text-center mt-12">
         <h1 className="text-3xl font-bold mb-4">Job Category List</h1>
         <p>

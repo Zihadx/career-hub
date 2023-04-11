@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "../src/All Images/google-1-1 1.png",
+    "name": "Google LLC",
+    "title": "Technical Database Engineer",
+    "job_category": ["Remote", "Full time"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "location": "New York, NY",
+    "salary": "$80,000 - $100,000"
+  },
+  {
+    "id": 2,
+    "image": "../src/All Images/netflix-4 1.png",
+    "name": "Netflix",
+    "title": "Senior Product Designer",
+    "job_category": ["Remote", "Full time"],
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "location": "Los Angeles, CA",
+    "salary": "$60,000 - $80,000"
+  },
+  {
+    "id": 3,
+    "image": "../src/All Images/tesla-9 1.png",
+    "name": "Tesla",
+    "title": "Car company",
+    "job_category": ["Remote", "Part time"],
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "location": "Chicago, IL",
+    "salary": "$90,000 - $120,000"
+  },
+  {
+    "id": 4,
+    "image": "../src/All Images/Group 10021.png",
+    "name": "Airbnb",
+    "title": "Air Bed and Breakfast",
+    "job_category": ["Onsite", "Full time"],
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "location": "Houston, TX",
+    "salary": "$70,000 - $90,000"
+  },
+  {
+    "id": 5,
+    "image": "../src/All Images/amazon.png",
+    "name": "Amazon",
+    "title": "Online shopping site",
+    "job_category": ["Onsite", "Full time"],
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    "location": "San Francisco, CA",
+    "salary": "$100,000 - $130,000"
+  },
+  {
+    "id": 6,
+    "image": "../src/All Images/ai.png",
+    "name": "ChatGPT",
+    "title": "AI model - Artificial intelligence ",
+    "job_category": ["Remote", "Part time"],
+    "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "location": "Boston, MA",
+    "salary": "$80,000 - $100,000"
+  }
+]
