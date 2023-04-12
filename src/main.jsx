@@ -7,6 +7,7 @@ import Home from "./Componets/Home";
 import ErrorPage from "./Componets/ErrorPage";
 import Blog from "./Componets/Blog";
 import JobDetails from "./Componets/JobDetails";
+import Chart from "./Componets/Chart";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       { 
         path: "/blog",
         element: <Blog></Blog>
+      },
+      { 
+        path: "/statistics",
+        element: <Chart></Chart>
       },
       {
         path:"/",

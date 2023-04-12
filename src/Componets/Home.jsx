@@ -4,6 +4,7 @@ import Header from './Header';
 import Section from './Section';
 import Jobs from './Jobs';
 import JobDetails from './JobDetails';
+import Chart from './Chart';
 
 const Home = () => {
     return (
@@ -11,7 +12,6 @@ const Home = () => {
             <Header></Header>
             <Section></Section>
             <Jobs></Jobs>
-            {/* <JobDetails></JobDetails> */}
         </div>
     );
 };
