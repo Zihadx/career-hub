@@ -9,6 +9,7 @@ import {
   faPhone,
   faMailBulk,
 } from "@fortawesome/free-solid-svg-icons";
+import { addToDb } from "../utils/fakeDb";
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -30,6 +31,11 @@ const JobDetails = () => {
     salary,
     title,
   } = details;
+
+  const handleAddToCart =(id)=>{
+    console.log(id)
+    addToDb(id)
+  }
   return (
     <div>
       <h1 className="text-3xl font-bold text-center bg-indigo-50 pt-8 pb-16">
@@ -118,7 +124,7 @@ const JobDetails = () => {
             </h3>
           </div>
           <Link>
-            <button className="bg-indigo-500 p-2 rounded-md text-white font-semibold w-full mt-4">
+            <button onClick={()=>handleAddToCart(id)} className="bg-indigo-500 p-2 rounded-md text-white font-semibold w-full mt-4">
             Apply Now
             </button>
           </Link>

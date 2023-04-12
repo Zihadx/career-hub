@@ -8,11 +8,11 @@ import Chart from './Chart';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header></Header>
             <Section></Section>
             <Jobs></Jobs>
-        </div>
+        </>
     );
 };
 

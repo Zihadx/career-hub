@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "fgdshghsfhsf1",
     "image": "../src/All Images/google-1-1 1.png",
     "name": "Google LLC",
     "title": "Technical Database Engineer",
@@ -16,7 +16,7 @@
     "salary": "$80,000 - $100,000"
   },
   {
-    "id": 2,
+    "id": "gsdgghdhrrj2",
     "image": "../src/All Images/netflix-4 1.png",
     "name": "Netflix",
     "title": "Senior Product Designer",
@@ -32,7 +32,7 @@
     "salary": "$60,000 - $80,000"
   },
   {
-    "id": 3,
+    "id": "dfgbdfhadh3",
     "image": "../src/All Images/tesla-9 1.png",
     "name": "Tesla",
     "title": "Car company",
@@ -48,7 +48,7 @@
     "salary": "$90,000 - $120,000"
   },
   {
-    "id": 4,
+    "id": "vbdfdfbhdfh4",
     "image": "../src/All Images/Group 10021.png",
     "name": "Airbnb",
     "title": "Air Bed and Breakfast",
@@ -64,7 +64,7 @@
     "salary": "$70,000 - $90,000"
   },
   {
-    "id": 5,
+    "id": "gvdfghsthsfgh5",
     "image": "../src/All Images/amazon.png",
     "name": "Amazon",
     "title": "Online shopping site",
@@ -80,7 +80,7 @@
     "salary": "$100,000 - $130,000"
   },
   {
-    "id": 6,
+    "id": "fgdhsfhsfh6",
     "image": "../src/All Images/ai.png",
     "name": "ChatGPT",
     "title": "AI model - Artificial intelligence ",

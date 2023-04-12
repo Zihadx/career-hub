@@ -6,7 +6,7 @@ import { faLocationDot, faDollar } from "@fortawesome/free-solid-svg-icons";
 const SingleJob = ({ job }) => {
   const {id, image, title, name, job_category, location, salary } = job;
   return (
-    <div className="grid grid-cols-2 md:px-24">
+    <div className="grid grid-cols-1 md:grid-cols-2 md:px-24">
       <div className="border border-spacing-1 p-6 mt-8">
         <img className="w-32 h-12 mb-4" src={image} alt="" />
         <h1>{title}</h1>
