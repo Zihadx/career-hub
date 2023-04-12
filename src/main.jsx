@@ -8,40 +8,44 @@ import ErrorPage from "./Componets/ErrorPage";
 import Blog from "./Componets/Blog";
 import JobDetails from "./Componets/JobDetails";
 import Chart from "./Componets/Chart";
+import AppliedJobs from "./Componets/AppliedJobs";
+import { handleJobs } from "./loaders/getJobs";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<App></App>,
+    element: <App></App>,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
-      { 
+      {
         path: "/about",
-        element: <div>this is about</div>
-      },
-      { 
-        path: "/details/:id",
-        element: <JobDetails></JobDetails>,
-        loader: ()=> fetch('/job.json')
-      },
-      { 
-        path: "/blog",
-        element: <Blog></Blog>
-      },
-      { 
-        path: "/statistics",
-        element: <Chart></Chart>
+        element: <div>this is about</div>,
       },
       {
-        path:"/",
-        element:<Home></Home>,
-        loader: ()=> fetch('job.json')
-        
-      }
-     
+        path: "/details/:id",
+        element: <JobDetails></JobDetails>,
+        loader: () => fetch("/job.json"),
+      },
+      {
+        path: "/applied-jobs",
+        element: <AppliedJobs></AppliedJobs>,
+        loader: handleJobs
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/statistics",
+        element: <Chart></Chart>,
+      },
+      {
+        path: "/",
+        element: <Home></Home>,
+        loader: () => fetch("job.json"),
+      },
     ],
   },
-  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

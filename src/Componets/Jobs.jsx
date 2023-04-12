@@ -22,7 +22,7 @@ const Jobs = () => {
           </small>
         </p>
       </div>
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 ">
         {data.map((job) => (
           <SingleJob key={job.id} job={job}></SingleJob>
         ))}

@@ -11,7 +11,7 @@ const Section = () => {
 
   return (
     <div className="md:px-24">
-      <div className="text-center mt-12">
+      <div className="text-center mt-12 ">
         <h1 className="text-3xl font-bold mb-4">Job Category List</h1>
         <p>
           <small>
@@ -20,7 +20,7 @@ const Section = () => {
           </small>
         </p>
       </div>
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-4 mx-auto gap-12">
       {
         sections.map(section => <SingleSection key={section.id} section={section}></SingleSection>)
       }

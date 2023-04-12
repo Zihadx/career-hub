@@ -7,7 +7,9 @@ const Navber = () => {
       <nav className="bg-indigo-50 md:px-24 py-8">
         <div className="md:flex items-center md:justify-between ">
           <div>
-            <h3 className="text-3xl font-bold text-indigo-500 ">JobHunter</h3>
+            <Link to="/">
+              <h3 className="text-3xl font-bold text-indigo-500 ">JobHunter</h3>
+            </Link>
           </div>
           <div className="flex gap-8 items-center">
             <Link to="/statistics">Statistics</Link>
