@@ -2,25 +2,25 @@
   {
     "id": 1,
     "title": "Account & Finance",
-    "image": "../src/All Images/accounting.png",
+    "image": "/src/All Images/accounting.png",
     "description": "300 Jobs Available."
   },
   {
     "id": 2,
     "title": "Creative Design",
-    "image": "../src/All Images/creative.png",
+    "image": "/src/All Images/creative.png",
     "description": "300 Jobs Available."
   },
   {
     "id": 3,
     "title": "Marketing & Sales",
-    "image": "../src/All Images/marketing.png",
+    "image": "/src/All Images/marketing.png",
     "description": "300 Jobs Available."
   },
   {
     "id": 4,
     "title": "Engineering Job",
-    "image": "../src/All Images/job.png",
+    "image": "/src/All Images/job.png",
     "description": "300 Jobs Available."
   }
 ]

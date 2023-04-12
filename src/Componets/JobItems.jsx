@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDollar } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-const JobItems = ({ job,id }) => {
-  const { image, title, name ,salary, job_category , location} = job;
+const JobItems = ({ job}) => {
+  const { image, title, name ,salary, job_category , location, id} = job;
   return (
     <div className="md:flex justify-between items-center border p-5 my-4 md:w-3/4 mx-auto">
       <div className="md:flex gap-8">

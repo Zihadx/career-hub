@@ -1,7 +1,7 @@
 [
   {
     "id": "fgdshghsfhsf1",
-    "image": "../src/All Images/google-1-1 1.png",
+    "image": "/src/All Images/google-1-1 1.png",
     "name": "Google LLC",
     "title": "Technical Database Engineer",
     "job_category": ["Remote", "Full time"],
@@ -17,7 +17,7 @@
   },
   {
     "id": "gsdgghdhrrj2",
-    "image": "../src/All Images/netflix-4 1.png",
+    "image": "/src/All Images/netflix-4 1.png",
     "name": "Netflix",
     "title": "Senior Product Designer",
     "job_category": ["Remote", "Full time"],
@@ -33,7 +33,7 @@
   },
   {
     "id": "dfgbdfhadh3",
-    "image": "../src/All Images/tesla-9 1.png",
+    "image": "/src/All Images/tesla-9 1.png",
     "name": "Tesla",
     "title": "Car company",
     "job_category": ["Remote", "Part time"],
@@ -49,7 +49,7 @@
   },
   {
     "id": "vbdfdfbhdfh4",
-    "image": "../src/All Images/Group 10021.png",
+    "image": "/src/All Images/Group 10021.png",
     "name": "Airbnb",
     "title": "Air Bed and Breakfast",
     "job_category": ["Onsite", "Full time"],
@@ -65,7 +65,7 @@
   },
   {
     "id": "gvdfghsthsfgh5",
-    "image": "../src/All Images/amazon.png",
+    "image": "/src/All Images/amazon.png",
     "name": "Amazon",
     "title": "Online shopping site",
     "job_category": ["Onsite", "Full time"],
@@ -81,7 +81,7 @@
   },
   {
     "id": "fgdhsfhsfh6",
-    "image": "../src/All Images/ai.png",
+    "image": "/src/All Images/ai.png",
     "name": "ChatGPT",
     "title": "AI model - Artificial intelligence ",
     "job_category": ["Remote", "Part time"],
