@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const JobItems = ({ job,id }) => {
   const { image, title, name ,salary, job_category , location} = job;
   return (
-    <div className="md:flex justify-between items-center border p-5 my-4">
+    <div className="md:flex justify-between items-center border p-5 my-4 md:w-3/4 mx-auto">
       <div className="md:flex gap-8">
         <div className="bg-indigo-100 rounded-md flex justify-center items-center">
           <img className="w-32 h-12 p-3 " src={image} alt="" />

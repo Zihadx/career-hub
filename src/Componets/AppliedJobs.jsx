@@ -13,7 +13,7 @@ const AppliedJobs = () => {
       <h1 className="text-3xl font-semibold text-center mt-8">
         {jobs.length ? "Review Jobs" : "Jobs Empty"}
       </h1>
-      <div className="flex flex-col md:px-32">
+      <div className="flex flex-col md:px-24">
         {jobs.map((job) => (
           <JobItems key={job.id} job={job}></JobItems>
         ))}
